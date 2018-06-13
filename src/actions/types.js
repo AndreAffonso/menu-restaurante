@@ -1,2 +1,3 @@
-export const FETCH_PEOPLE = 'FETCH_PEOPLE';
-export const FETCH_NEW_PAGE = 'FETCH_NEW_PAGE';
+export const FETCH_RESTAURANT = 'FETCH_RESTAURANT';
+export const FETCH_MENU = 'FETCH_MENU';
+export const FETCH_LOGIN = 'FETCH_LOGIN';

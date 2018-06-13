@@ -3,15 +3,15 @@ import { Provider } from 'react-redux';
 import store from '../../store';
 
 // COMPONENTS
-import PeopleList from '../../components/PeopleList';
+import Restaurant from '../../components/Restaurant';
 
 import { AppWrapper, Title } from './styles';
 
 const App = () => (
   <Provider store={store}>
     <AppWrapper>
-      <Title>Star Wars Characters</Title>
-      <PeopleList />
+      <Title>Restaurante Menu</Title>
+      <Restaurant />
     </AppWrapper>
   </Provider>
 );

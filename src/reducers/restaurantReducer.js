@@ -1,20 +1,21 @@
-import { FETCH_PEOPLE, FETCH_NEW_PAGE } from '../actions/types';
+import { FETCH_RESTAURANT, FETCH_MENU } from '../actions/types';
 
 const initialState = {
-  items: []
+  restaurant: [],
+  restaurantMenu: []
 };
 
 export default function(state = initialState, action) {
   switch (action.type) {
-    case FETCH_PEOPLE:
+    case FETCH_RESTAURANT:
       return {
         ...state,
-        items: action.payload
+        restaurant: action.payload
       };
-    case FETCH_NEW_PAGE:
+    case FETCH_MENU:
       return {
         ...state,
-        items: [...state.items, ...action.payload]
+        restaurantMenu: action.payload
       };
     default:
       return state;
