@@ -1,3 +1,3 @@
-## Personagens Star Wars
+## Menu Restaurante
 
-Lista pagina de todos os personagens de Star Wars usando React + Redux
+Cardápio de um restaurante usando React + Redux
